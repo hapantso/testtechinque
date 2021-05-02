@@ -1,5 +1,8 @@
 ## INSTALLATION
+Avant tout, installer tous les vendors de Laravel avec la commande :
 
+    composer install
+    
 Il faut d'abord vider les caches de Laravel en éxecutant les commandes 
     
     php artisan cache:clear
