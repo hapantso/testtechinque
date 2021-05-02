@@ -1,6 +1,7 @@
 ## INSTALLATION
 
 Il faut d'abord vider les caches de Laravel en éxecutant les commandes 
+    
     php artisan cache:clear
     php artisan config:clear
     php artisan config:cache
@@ -17,10 +18,12 @@ Après la création de la base de données, il faut modifier les environnement d
     DB_PASSWORD=MOT_DE_PASSE
 
 Puis, éxecuter les commandes suivantes pour créer les tables et l'utilisateur:
+    
     php artisan migrate
     php artisan db:seed
 
 Pour lancer le projet, il faut éxecuter la commande : 
+    
     php artisan serve
 
 La partie front est accessible par le lien http://127.0.0.1:8000.
