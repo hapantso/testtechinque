@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.footer {
+    padding: 15px 20px;
+}
+
+.nav-link.active {
+    color: rgb(255, 255, 255);
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.mt-2rem {
+    margin-top: 2rem !important
+}
